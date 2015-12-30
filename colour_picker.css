@@ -1,0 +1,43 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 0;
+	font: inherit;
+	vertical-align: baseline;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	font-family: 'Open Sans Condensed', sans-serif;
+	
+}
+
+#wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#wrapper canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#hex_picker {
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	top: 45%;
+	font-size: 2.3em;
+	color: white;
+}
+
+#start {
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	top: 25%;
+	font-size: 2.3em;
+	color: white;
+}
